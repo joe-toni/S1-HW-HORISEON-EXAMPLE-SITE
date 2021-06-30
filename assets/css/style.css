@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/*Header section for the page, contains the title for the site with stylized text
+and sizing.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +26,8 @@ body {
     color: #d9dcd6;
 }
 
+/*Navigation bar for the page,comprised of an unordered list of links that
+lead to specific sections further down the page.*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,15 +46,18 @@ body {
     margin-left: 25px;
 }
 
+/*Styling for the anchor elements in the HTML file*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Setting the font size for P elements in the HTML file*/
 p {
     font-size: 16px;
 }
 
+/*Settings for the main display image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +67,26 @@ p {
     background-position: center;
 }
 
+/*setting for a function to place items to the left of a box*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*setting for a function to place items to the right of a box*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Settings for the container of the main content section*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Condensed settings for the cards of the main section, setting the box sizing ,
+the font family, and the colors*/
 .main-section-card{
     margin-bottom: 20px;
     padding: 50px;
@@ -85,15 +96,19 @@ p {
     color: #ffffff;
 }
 
+/*Setting the max height of the image used in the main section cards*/
 .main-section-card img {
     max-height: 200px;
 }
 
+/*Setting the details for the header of each card section*/
 .main-section-card h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Setting the details for the aside portioin of the page including its position in
+the page, its color, and the font of the text it contains*/
 .side-bar-benefits {
     margin-right: 20px;
     padding: 20px;
@@ -105,6 +120,8 @@ p {
     background-color: #2589bd;
 }
 
+/*This section contains the consolidated versions of the selectors for the 
+benefit card class and their child elements*/
 .benefit-card {
     margin-bottom: 32px;
     color: #ffffff;
@@ -121,6 +138,8 @@ p {
     max-width: 150px;
 }
 
+
+/*This section contains the styling for the footer of the page*/
 .footer {
     padding: 30px;
     clear: both;
